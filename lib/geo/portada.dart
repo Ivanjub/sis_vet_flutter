@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
-import 'package:sis_vet/pago_cliente/Pago.dart';
+import 'package:sis_vet/pago_cliente/pago.dart';
 import 'package:sis_vet/geo/buscar_direccion.dart';
 import 'marcador.dart';
 

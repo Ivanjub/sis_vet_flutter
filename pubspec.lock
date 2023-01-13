@@ -320,14 +320,6 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.0.1"
-  payumoney_pro_unofficial:
-    dependency: "direct main"
-    description:
-      name: payumoney_pro_unofficial
-      sha256: "8bb4122ed71f25739dc5536d9191022e4862a4a4f5ee8a2c4b2d61d9ff7ed794"
-      url: "https://pub.dev"
-    source: hosted
-    version: "0.0.9"
   petitparser:
     dependency: transitive
     description:

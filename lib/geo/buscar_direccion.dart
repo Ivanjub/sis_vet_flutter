@@ -4,7 +4,7 @@ import 'package:flutter_google_places/flutter_google_places.dart';
 import 'package:google_maps_flutter/google_maps_flutter.dart';
 import 'package:google_maps_webservice/places.dart';
 import 'package:google_api_headers/google_api_headers.dart';
-import 'package:sis_vet/pago_cliente/Pago.dart';
+import 'package:sis_vet/pago_cliente/pago.dart';
 
 class buscarDireccion extends StatefulWidget {
   const buscarDireccion({Key? key}) : super(key: key);
@@ -15,10 +15,8 @@ class buscarDireccion extends StatefulWidget {
 
 }
 
-const kGoogleApiKey = 'ApiKey';
+const kGoogleApiKey = 'AIzaSyDaZQLYkIOPvzqnWyDK9Zkg2doxIFv9ZWA';
 final homeScaffoldKey = GlobalKey<ScaffoldState>();
-
-
 
 
 class _SearchPlacesScreenState extends State<buscarDireccion> {
@@ -169,7 +167,6 @@ class _SearchPlacesScreenState extends State<buscarDireccion> {
 
      googleMapController.animateCamera(CameraUpdate.newLatLngZoom(LatLng(lat, lng), 14.0));
 
-           
 
   }
   

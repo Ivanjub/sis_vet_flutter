@@ -1,7 +1,7 @@
 
 
 import 'package:flutter/material.dart';
-import 'package:sis_vet/ejemplos/ejemplo_pago/pago2.dart';
+// import 'package:sis_vet/ejemplos/ejemplo_pago/pago2.dart';
 import 'package:sis_vet/geo/portada.dart';
 
 void main() { 

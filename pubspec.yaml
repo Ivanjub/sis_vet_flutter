@@ -40,7 +40,7 @@ dependencies:
   awesome_snackbar_content: ^0.1.0
   flutter_google_places: ^0.3.0
   http: ^0.13.5
-  payumoney_pro_unofficial: ^0.0.9
+  # payumoney_pro_unofficial: ^0.0.9
   url_launcher: ^6.1.7
   #flutter_circular_chart: ^0.1.0
 

@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:url_launcher/url_launcher.dart';
 
 
 class clientePago extends StatefulWidget{
@@ -173,7 +174,7 @@ List<String> total = [];
             minimumSize: const Size(100, 30)
             ),
           onPressed: (){
-            _metodo_pago();
+            launch("https://sandbox.api.payulatam.com/payments-api/4.0/service.cgi");
           }, 
           child: const Text('Pagar',
           style: TextStyle(
@@ -186,14 +187,13 @@ List<String> total = [];
         ]
           )
         
-              
               );
                
                
                }
 
 
-void _metodo_pago(){
+void metodo_pago(){
   
   this.producto;
   this.producto1;
@@ -207,6 +207,4 @@ void _metodo_pago(){
 
 
 }
-               
-               
-
+                        
