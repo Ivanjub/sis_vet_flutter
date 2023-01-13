@@ -15,7 +15,7 @@ class buscarDireccion extends StatefulWidget {
 
 }
 
-const kGoogleApiKey = 'AIzaSyDyR49bct_uXsq7LLgDdEpHOMM8HLSo1zM';
+const kGoogleApiKey = 'ApiKey';
 final homeScaffoldKey = GlobalKey<ScaffoldState>();
 
 

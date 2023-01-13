@@ -31,7 +31,7 @@ class MyApp extends StatelessWidget {
 
       //esto es para probar los cambios en github
       
-      home: mipago(),
+      home: Portada(),
 
     );
   }
