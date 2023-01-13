@@ -29,7 +29,7 @@ class MyApp extends StatelessWidget {
         // primaryColor: Colors.amber
       ),
       
-      home: mipago(),
+      home: Portada(),
 
     );
   }
