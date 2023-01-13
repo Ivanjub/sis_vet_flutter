@@ -28,8 +28,10 @@ class MyApp extends StatelessWidget {
         // primarySwatch: Colors.amber,
         // primaryColor: Colors.amber
       ),
+
+      //esto es para probar los cambios en github
       
-      home: Portada(),
+      home: mipago(),
 
     );
   }
