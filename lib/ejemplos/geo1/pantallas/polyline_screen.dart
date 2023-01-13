@@ -3,7 +3,7 @@ import 'dart:convert';
 
 import 'package:flutter/material.dart';
 import 'package:google_maps_flutter/google_maps_flutter.dart';
-import 'package:sis_vet/ejemplos/geo1/model/polyline_response.dart';
+import '/ejemplos/geo1/model/polyline_response.dart';
 
 import 'package:http/http.dart' as http;
 
@@ -22,7 +22,7 @@ class _PolylineScreenState extends State<PolylineScreen> {
   String totalDistance = "";
   String totalTime = "";
 
-  String apiKey = "AIzaSyDyR49bct_uXsq7LLgDdEpHOMM8HLSo1zM";
+  String apiKey = "apikey";
 
   LatLng origin = const LatLng(31.51110801, 74.2774796);
   LatLng destination = const LatLng(31.5525789, 74.2813495);

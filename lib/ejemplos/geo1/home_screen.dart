@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:sis_vet/ejemplos/geo1/pantallas/current_location_screen.dart';
-import 'package:sis_vet/ejemplos/geo1/pantallas/nearby_places_screen.dart';
+import '/ejemplos/geo1/pantallas/current_location_screen.dart';
+import '/ejemplos/geo1/pantallas/nearby_places_screen.dart';
 import 'package:sis_vet/geo/buscar_direccion.dart';
-import 'package:sis_vet/ejemplos/geo1/pantallas/simple_map_screen.dart';
+import '/ejemplos/geo1/pantallas/simple_map_screen.dart';
 
 import 'pantallas/polyline_screen.dart';
 

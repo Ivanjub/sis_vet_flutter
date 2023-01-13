@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:sis_vet/ejemplos/modelos/detalle.dart';
+import '/ejemplos/modelos/detalle.dart';
 
 class PantallaDetalle extends StatefulWidget {
   

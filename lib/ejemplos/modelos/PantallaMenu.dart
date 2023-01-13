@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:sis_vet/ejemplos/modelos/PantallaDetalle.dart';
+import '/ejemplos/modelos/PantallaDetalle.dart';
 import 'categoria.dart';
 
 class PantallaMenu extends StatefulWidget{

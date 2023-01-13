@@ -1,7 +1,7 @@
 import 'dart:convert';
 
 import 'package:flutter/material.dart';
-import 'package:sis_vet/ejemplos/geo1/model/nearby_response.dart';
+import '/ejemplos/geo1/model/nearby_response.dart';
 
 import 'package:http/http.dart' as http;
 
