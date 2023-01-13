@@ -1,0 +1,18 @@
+{
+    "language": "es",
+    "command": "SUBMIT_TRANSACTION",
+    "merchant": {
+       "apiLogin": "pRRXKOl8ikMmt9u",
+       "apiKey": "4Vj8eK4rloUd272L48hsrarnUA"
+    },
+    "transaction": {
+       "order": {
+          "id": "1400421560"
+       },
+       "type": "CAPTURE",
+       "parentTransactionId": "db9d9d7f-b62c-4ed2-a3b9-d146d33bdaf5"
+    },
+    "test": false
+ }
+
+ 
